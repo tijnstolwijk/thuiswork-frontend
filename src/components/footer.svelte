@@ -1,21 +1,13 @@
+<!-- @format !-->
 <script>
 </script>
 
-<div class="footer">
-  <div style="float: left; margin-left: 50px">
-    About :
-  </div>
-</div>
+<div class="footer" />
 
 <style>
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 4%;
-  background-color: #333;
-  color: lightgray;
-  text-align: center;
-}
+	.footer {
+		min-height: 10vh;
+		background-color: #24252a;
+		margin-top: auto;
+	}
 </style>

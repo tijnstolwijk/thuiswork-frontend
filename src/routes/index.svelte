@@ -1,26 +1,32 @@
-<!-- Eerst standaard svelte layout maken
+<!-- @format
+    Eerst standaard svelte layout maken
     script
     html
     css
 !-->
-
 <script lang="ts">
-  import Articlebox from '../components/articlebox.svelte'
+	import Articlebox from '../components/articlebox.svelte';
 </script>
 
 <svelte:head>
-    <title> SvelteKit testing environment </title>
+	<title>SvelteKit testing environment</title>
 </svelte:head>
+<body>
+	<h1>Svelte test environment</h1>
 
-<h1>
-Svelte test environment
-</h1>
-
-<Articlebox  />
-
+	<Articlebox />
+</body>
 
 <style>
-h1 {
-color: #d08770;
-}
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	h1 {
+		color: #d08770;
+	}
+	body {
+		display: flex;
+		flex-direction: column;
+	}
 </style>
