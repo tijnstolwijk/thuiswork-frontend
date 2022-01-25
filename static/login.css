@@ -1,0 +1,116 @@
+/* @format */
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	.formcontainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 500px;
+	}
+
+	.formcontainer form {
+		background-color: #24252a;
+		border-radius: 10px;
+		color: #edf0f1;
+		padding: 0 40px;
+		box-sizing: border-box;
+	}
+
+	.formcontainer h1 {
+		text-align: center;
+		padding: 10px 0 20px 0;
+		border-bottom: 1px solid silver;
+	}
+
+	form .field {
+		position: relative;
+		border-bottom: 2px solid #adadad;
+		margin: 30px 0;
+	}
+
+	.field input {
+		width: 100%;
+		padding: 0 5px;
+		height: 40px;
+		font-size: 16px;
+		border: none;
+		background: none;
+		outline: none;
+		color: #edf0f1;
+	}
+
+	.field label {
+		position: absolute;
+		top: 50%;
+		left: 5px;
+		color: #adadad;
+		transform: translateY(-50%);
+		font-size: 16px;
+		pointer-events: none;
+		transition: 0.5s;
+	}
+
+	.field span::before {
+		content: '';
+		position: absolute;
+		top: 40px;
+		left: 0;
+		width: 0%;
+		height: 2px;
+		background: #2691d9;
+		transition: 0.5s;
+	}
+	.field input:focus ~ label,
+	.field input:valid ~ label {
+		top: -5px;
+		color: #2691d9;
+	}
+	.field input:focus ~ span::before,
+	.field input:valid ~ span::before {
+		width: 100%;
+	}
+
+	input[type='submit'] {
+		width: 100%;
+		height: 50px;
+		border: 1px solid;
+		border-color: rgba(0, 136, 169, 1);
+		background: rgba(0, 136, 169, 1);
+		border-radius: 50px;
+		font-size: 18px;
+		font-weight: 700;
+		margin: 15px 0;
+		color: #edf0f1;
+		outline: none;
+		cursor: pointer;
+	}
+
+	input[type='submit']:hover {
+		border-color: #edf0f1;
+		transition: 0.5s;
+	}
+	.signup {
+		width: 70px;
+		height: 25px;
+		border: 1px solid;
+		border-color: rgba(0, 136, 169, 1);
+		background: rgba(0, 136, 169, 1);
+		border-radius: 50px;
+		font-weight: 700;
+		margin: 5px 0;
+		color: #edf0f1;
+		outline: none;
+		cursor: pointer;
+	}
+
+	.signup:hover {
+		border-color: #edf0f1;
+		transition: 0.5s;
+	}
