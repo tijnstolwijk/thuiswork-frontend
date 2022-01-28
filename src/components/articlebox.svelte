@@ -13,7 +13,7 @@
 	.articlebox {
 		display: flex;
 		justify-content: center;
-		border-color: #333;
+		border-color: silver;
 		width: auto;
 		min-height: 700px;
 		height: auto;
@@ -23,7 +23,7 @@
 		width: 60%;
 		min-height: 350px;
 		height: auto;
-		border-color: #333;
+		border-color: silver;
 		border-style: solid;
 		padding: 15px;
 	}

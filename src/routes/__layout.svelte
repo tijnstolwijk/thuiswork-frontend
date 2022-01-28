@@ -1,7 +1,7 @@
 <!-- @format !-->
 <script lang="typescript">
-	import Nav from '../components/nav.svelte';
-	import Footer from '../components/footer.svelte';
+	import Nav from '../components/layout/nav.svelte';
+	import Footer from '../components/layout/footer.svelte';
 </script>
 
 <body>
