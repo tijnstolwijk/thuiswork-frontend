@@ -15,7 +15,7 @@
 			<span />
 			<label> Password </label>
 		</div>
-		<div>Don't have an account? <button class="signup">Sign up</button></div>
+		<div>Don't have an account? <a href="/signin"><button class="signup">Sign up</button></a></div>
 		<input type="submit" value="Login" />
 	</form>
 </div>

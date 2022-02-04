@@ -1,74 +1,25 @@
 <!-- @format !-->
 <script lang="ts">
+	import Vakcard from '../../components/vakCard/vakCard.svelte';
 </script>
 
 <div class="container">
-	<div class="vak">
-		<img class="plaatje" src="/cicero.jpg" />
-		<div class="vaktekst">/latijn</div>
-	</div>
-
-	<div class="vak">
-		<img class="plaatje" src="/acropolis.jpg" />
-		<div class="vaktekst">/grieks</div>
-	</div>
-
-	<div class="vak">
-		<img class="plaatje" src="/geschiedenis.jpg" />
-		<div class="vaktekst">/geschiedenis</div>
-	</div>
-	<div class="vak">
-		<img class="plaatje" src="/dna.jpg" />
-		<div class="vaktekst">/biologie</div>
-	</div>
-	<div class="vak">
-		<img class="plaatje" src="/boek.jpg" />
-		<div class="vaktekst">/nederlands</div>
-	</div>
-	<div class="vak">
-		<img class="plaatje" src="/scheikunde.jpg" />
-		<div class="vaktekst">/scheikunde</div>
-	</div>
-	<div class="vak">
-		<img class="plaatje" src="/natuurkunde.jpg" />
-		<div class="vaktekst">/natuurkunde</div>
-	</div>
-	<div class="vak">
-		<img src="/frans.jpg" class="plaatje" />
-		<div class="vaktekst">/frans</div>
-	</div>
-	<div class="vak">
-		<img src="/duits.jpg" class="plaatje" />
-		<div class="vaktekst">/duits</div>
-	</div>
-	<div class="vak">
-		<img src="/maths.png" class="plaatje" />
-		<div class="vaktekst">/wiskunde</div>
-	</div>
-	<div class="vak">
-		<img class="plaatje" src="/engels.jpg" />
-		<div class="vaktekst">/engels</div>
-	</div>
-	<div class="vak">
-		<img class="plaatje" src="/economie.jpg" />
-		<div class="vaktekst">/economie</div>
-	</div>
-	<div class="vak">
-		<img src="/maatschappijleer.jpg" class="plaatje" />
-		<div class="vaktekst">/maatschappijleer</div>
-	</div>
-	<div class="vak">
-		<img src="/informatica.png" class="plaatje" />
-		<div class="vaktekst">/informatica</div>
-	</div>
-	<div class="vak">
-		<img src="/levensbeschouwing.jpg" class="plaatje" />
-		<div class="vaktekst">/levensbeschouwing</div>
-	</div>
-	<div class="vak">
-		<img src="/spanish.jpg" class="plaatje" />
-		<div class="vaktekst">/spaans</div>
-	</div>
+	<Vakcard plaatje="/cicero.jpg" alt="Latijn, het vak" tekst="/latijn" />
+	<Vakcard plaatje="/acropolis.jpg" alt="grieks" tekst="/grieks" />
+	<Vakcard plaatje="/geschiedenis.jpg" alt="geschiedenis" tekst="/geschiedenis" />
+	<Vakcard plaatje="/dna.jpg" alt="biologie" tekst="/biologie" />
+	<Vakcard plaatje="/boek.jpg" alt="nederlands" tekst="/nederlands" />
+	<Vakcard plaatje="/scheikunde.jpg" alt="scheikunde" tekst="/scheikunde" />
+	<Vakcard plaatje="/natuurkunde.jpg" alt="natuurkunde" tekst="/natuurkunde" />
+	<Vakcard plaatje="/frans.jpg" alt="frans" tekst="/frans" />
+	<Vakcard plaatje="/duits.jpg" alt="duits" tekst="/duits" />
+	<Vakcard plaatje="/maths.png" alt="wiskunde" tekst="/wiskunde" />
+	<Vakcard plaatje="/engels.jpg" alt="engels" tekst="/engels" />
+	<Vakcard plaatje="/economie.jpg" alt="economie" tekst="/economie" />
+	<Vakcard plaatje="/maatschappijleer.jpg" alt="maatschappijleer" tekst="/maatschappijleer" />
+	<Vakcard plaatje="/informatica.png" alt="informatica" tekst="/informatica" />
+	<Vakcard plaatje="/levensbeschouwing.jpg" alt="levensbeschouwing" tekst="levensbeschouwing" />
+	<Vakcard plaatje="/spanish.jpg" alt="spanish" tekst="/spanish" />
 </div>
 
 <style>
@@ -77,9 +28,9 @@
 		font-family: 'Montserrat', sans-serif;
 	}
 	.vak {
-		width: 300px;
-		height: 300px;
 		border-style: solid;
+		height: 300px;
+		width: 300px;
 		border-color: #24252a;
 		display: flex;
 		border-radius: 10px;
@@ -102,8 +53,8 @@
 
 	.container {
 		display: grid;
-		grid-gap: 15px;
-		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 1rem;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 		width: 100%;
 		justify-items: center;
 		margin-top: 100px;

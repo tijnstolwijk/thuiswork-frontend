@@ -20,7 +20,6 @@
 			<span />
 			<label> Password </label>
 		</div>
-		<div>Don't have an account? <button class="signup">Sign up</button></div>
-		<input type="submit" value="Login" />
+		<input type="submit" value="Sign up" />
 	</form>
 </div>

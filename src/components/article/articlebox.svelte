@@ -1,6 +1,6 @@
 <!-- @format !-->
 <script lang="ts">
-	import Dummy from './dummy.svelte';
+	import Dummy from '../dummytxt/dummy.svelte';
 </script>
 
 <div class="articlebox">

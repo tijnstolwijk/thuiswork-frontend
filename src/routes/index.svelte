@@ -5,7 +5,7 @@
     css
 !-->
 <script lang="ts">
-	import Dummy from '../components/dummy.svelte';
+	import Dummy from '../components/dummytxt/dummy.svelte';
 </script>
 
 <svelte:head>

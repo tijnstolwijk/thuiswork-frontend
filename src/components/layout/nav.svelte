@@ -12,14 +12,14 @@
 	<!-- Links !-->
 	<nav>
 		<ul class="links">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Vakken</a></li>
-			<li><a href="#">About</a></li>
+			<li><a href="/">Home</a></li>
+			<li><a href="/vakken">Vakken</a></li>
+			<li><a href="/about">About</a></li>
 		</ul>
 	</nav>
 
 	<!-- Login button !-->
-	<a class="cta" href="#"><button> login</button></a>
+	<a class="cta" href="/login"><button> login</button></a>
 </header>
 
 <style>
