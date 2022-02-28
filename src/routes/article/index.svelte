@@ -1,55 +1,39 @@
-<!-- @format
-    Eerst standaard svelte layout maken
-    script
-    html
-    css
-!-->
+<!-- @format !-->
 <script lang="ts">
-	import Dummy from '../components/dummytxt/dummy.svelte';
+	import ArticleBox from '../../components/article/articlebox.svelte';
 </script>
 
-<svelte:head>
-	<title>SvelteKit testing environment</title>
-</svelte:head>
-<div class="container">
-	<div class="text">
-		<h2>Thuiswork CE: jouw gedecentraliseerde huiswerk-platform</h2>
-		<h3>Thuiswork Community Edition</h3>
-		<div class="field">
-			<input name="name" type="text" required />
-			<span />
-			<label>Zoeken op Thuiswork CE</label>
-		</div>
-		<Dummy />
+<div>
+	<div class="field">
+		<input name="name" type="text" required />
+		<span />
+		<label>Zoeken in nederlands</label>
 	</div>
+	<ArticleBox />
+	<ArticleBox />
+	<ArticleBox />
+	<ArticleBox />
+	<ArticleBox />
+	<ArticleBox />
+	<ArticleBox />
+	<ArticleBox />
+	<ArticleBox />
 </div>
 
 <style>
-	@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
-	* {
-		margin: 0;
-		padding: 0;
-		font-family: 'Fira Code', monospace;
-	}
-	h2 {
-		color: #4c566a;
-		margin: 5px;
-		position: relative;
-	}
-	.container {
+	div {
 		display: flex;
-		text-align: left;
-		flex-direction: column;
 		justify-content: center;
+		flex-direction: column;
 		align-items: center;
-	}
-	.text {
-		width: 60%;
+		margin: 5px;
 	}
 	.field {
 		position: relative;
 		border-bottom: 2px solid #adadad;
 		margin: 30px 0;
+		color: #edf0f1;
+		width: 49vw;
 	}
 	.field input {
 		width: 100%;
@@ -59,12 +43,13 @@
 		border: none;
 		background: none;
 		outline: none;
+		color: #edf0f1;
 	}
 	.field label {
 		position: absolute;
 		top: 50%;
 		left: 5px;
-		color: #adadad;
+		color: #edf0f1;
 		transform: translateY(-50%);
 		font-size: 16px;
 		pointer-events: none;

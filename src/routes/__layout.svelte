@@ -20,5 +20,7 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		background-color: #24252a;
+		color: #edf0f1;
 	}
 </style>

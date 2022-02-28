@@ -36,11 +36,12 @@
 	}
 	.container {
 		display: flex;
+		text-align: left;
 		flex-direction: column;
 		align-items: center;
 		height: 100vh;
 	}
 	.text {
-		width: 700px;
+		width: 60%;
 	}
 </style>

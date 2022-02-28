@@ -11,15 +11,15 @@
 	<Vakcard plaatje="/boek.jpg" alt="nederlands" tekst="/nederlands" />
 	<Vakcard plaatje="/scheikunde.jpg" alt="scheikunde" tekst="/scheikunde" />
 	<Vakcard plaatje="/natuurkunde.jpg" alt="natuurkunde" tekst="/natuurkunde" />
-	<Vakcard plaatje="/frans.jpg" alt="frans" tekst="/frans" />
-	<Vakcard plaatje="/duits.jpg" alt="duits" tekst="/duits" />
-	<Vakcard plaatje="/maths.png" alt="wiskunde" tekst="/wiskunde" />
-	<Vakcard plaatje="/engels.jpg" alt="engels" tekst="/engels" />
-	<Vakcard plaatje="/economie.jpg" alt="economie" tekst="/economie" />
-	<Vakcard plaatje="/maatschappijleer.jpg" alt="maatschappijleer" tekst="/maatschappijleer" />
-	<Vakcard plaatje="/informatica.png" alt="informatica" tekst="/informatica" />
+	<Vakcard plaatje="/frans.jpg" alt="frans" tekst="frans" />
+	<Vakcard plaatje="/duits.jpg" alt="duits" tekst="duits" />
+	<Vakcard plaatje="/maths.png" alt="wiskunde" tekst="wiskunde" />
+	<Vakcard plaatje="/engels.jpg" alt="engels" tekst="engels" />
+	<Vakcard plaatje="/economie.jpg" alt="economie" tekst="economie" />
+	<Vakcard plaatje="/maatschappijleer.jpg" alt="maatschappijleer" tekst="maatschappijleer" />
+	<Vakcard plaatje="/informatica.png" alt="informatica" tekst="informatica" />
 	<Vakcard plaatje="/levensbeschouwing.jpg" alt="levensbeschouwing" tekst="levensbeschouwing" />
-	<Vakcard plaatje="/spanish.jpg" alt="spanish" tekst="/spanish" />
+	<Vakcard plaatje="/spanish.jpg" alt="spanish" tekst="spanish" />
 </div>
 
 <style>

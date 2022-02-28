@@ -24,6 +24,14 @@
 		cursor: pointer;
 		background-color: #24252a;
 		color: #edf0f1;
+		filter: grayscale(0%);
+		transition: all 0.5s ease;
+	}
+	.vak:hover {
+		filter: grayscale(80%);
+		border-width: 15px;
+		background-color: #3a3433;
+		border-color: #3a3433;
 	}
 	.vaktekst {
 		margin: auto;
