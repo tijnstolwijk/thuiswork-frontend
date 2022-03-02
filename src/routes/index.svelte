@@ -5,34 +5,33 @@
     css
 !-->
 <script lang="ts">
-	import Dummy from '../components/dummytxt/dummy.svelte';
+	import Dummy from '$lib/components/dummytxt/dummy.svelte';
 </script>
 
 <svelte:head>
-	<title>SvelteKit testing environment</title>
+	<title>Thuiswork CE</title>
 </svelte:head>
 <div class="container">
 	<div class="text">
-		<h2>Thuiswork CE: jouw gedecentraliseerde huiswerk-platform</h2>
+		<h2>Thuiswork CE: jouw open-source huiswerk-platform</h2>
 		<h3>Thuiswork Community Edition</h3>
 		<div class="field">
 			<input name="name" type="text" required />
 			<span />
-			<label>Zoeken op Thuiswork CE</label>
+			<label for="name">Zoeken op Thuiswork CE</label>
 		</div>
 		<Dummy />
 	</div>
 </div>
 
 <style>
-	@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 	* {
 		margin: 0;
 		padding: 0;
-		font-family: 'Fira Code', monospace;
+		font-family: 'Montserrat', monospace;
 	}
 	h2 {
-		color: #4c566a;
 		margin: 5px;
 		position: relative;
 	}
@@ -45,6 +44,8 @@
 	}
 	.text {
 		width: 60%;
+		color: #edf0f1;
+		font-size: 18px;
 	}
 	.field {
 		position: relative;
@@ -59,6 +60,7 @@
 		border: none;
 		background: none;
 		outline: none;
+		color: #edf0f1;
 	}
 	.field label {
 		position: absolute;

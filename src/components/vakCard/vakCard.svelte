@@ -15,23 +15,28 @@
 		border-style: solid;
 		height: 300px;
 		width: 300px;
-		border-color: #24252a;
+		border-color: #2a2b32;
 		display: flex;
 		border-radius: 10px;
 		align-items: center;
 		flex-direction: column;
 		overflow: hidden;
 		cursor: pointer;
-		background-color: #24252a;
+		background-color: #2a2b32;
 		color: #edf0f1;
 		filter: grayscale(0%);
 		transition: all 0.5s ease;
 	}
 	.vak:hover {
-		filter: grayscale(80%);
 		border-width: 15px;
-		background-color: #3a3433;
-		border-color: #3a3433;
+		background-color: #2a2b32;
+		border-color: #2a2b32;
+	}
+	.plaatje {
+		transition: all 0.5s ease;
+	}
+	.vak:hover > .plaatje {
+		filter: grayscale(100%);
 	}
 	.vaktekst {
 		margin: auto;

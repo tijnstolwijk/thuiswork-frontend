@@ -4,13 +4,13 @@
 </script>
 
 <div class="container">
-	<Vakcard plaatje="/cicero.jpg" alt="Latijn, het vak" tekst="/latijn" />
-	<Vakcard plaatje="/acropolis.jpg" alt="grieks" tekst="/grieks" />
-	<Vakcard plaatje="/geschiedenis.jpg" alt="geschiedenis" tekst="/geschiedenis" />
-	<Vakcard plaatje="/dna.jpg" alt="biologie" tekst="/biologie" />
-	<Vakcard plaatje="/boek.jpg" alt="nederlands" tekst="/nederlands" />
-	<Vakcard plaatje="/scheikunde.jpg" alt="scheikunde" tekst="/scheikunde" />
-	<Vakcard plaatje="/natuurkunde.jpg" alt="natuurkunde" tekst="/natuurkunde" />
+	<Vakcard plaatje="/cicero.jpg" alt="Latijn, het vak" tekst="latijn" />
+	<Vakcard plaatje="/acropolis.jpg" alt="grieks" tekst="grieks" />
+	<Vakcard plaatje="/geschiedenis.jpg" alt="geschiedenis" tekst="geschiedenis" />
+	<Vakcard plaatje="/dna.jpg" alt="biologie" tekst="biologie" />
+	<Vakcard plaatje="/boek.jpg" alt="nederlands" tekst="nederlands" />
+	<Vakcard plaatje="/scheikunde.jpg" alt="scheikunde" tekst="scheikunde" />
+	<Vakcard plaatje="/natuurkunde.jpg" alt="natuurkunde" tekst="natuurkunde" />
 	<Vakcard plaatje="/frans.jpg" alt="frans" tekst="frans" />
 	<Vakcard plaatje="/duits.jpg" alt="duits" tekst="duits" />
 	<Vakcard plaatje="/maths.png" alt="wiskunde" tekst="wiskunde" />
@@ -55,7 +55,9 @@
 		display: grid;
 		grid-gap: 1rem;
 		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		width: 100%;
+		width: 80%;
+		justify-self: center;
+		align-self: center;
 		justify-items: center;
 		margin-top: 100px;
 		margin-bottom: 100px;

@@ -27,7 +27,7 @@
 	}
 	.articlebox {
 		width: 60vw;
-		background-color: #24252a;
+		background-color: #2a2b32;
 		color: #edf0f1;
 		display: flex;
 		text-align: left;

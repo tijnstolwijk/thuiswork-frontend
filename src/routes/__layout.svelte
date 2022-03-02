@@ -1,5 +1,5 @@
 <!-- @format !-->
-<script lang="typescript">
+<script lang="ts">
 	import Nav from '../components/layout/nav.svelte';
 	import Footer from '../components/layout/footer.svelte';
 </script>

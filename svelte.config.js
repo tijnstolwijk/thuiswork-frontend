@@ -9,8 +9,17 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
+    files: {
+      assets: 'static',
+      hooks: 'src/hooks',
+      lib: 'src',
+      routes: 'src/routes',
+      serviceWorker: 'src/service-worker',
+      template: 'src/app.html'
+    },
 
 		// hydrate the <div id="svelte"> element in src/app.html
+    //
 		target: '#svelte'
 	}
 };
