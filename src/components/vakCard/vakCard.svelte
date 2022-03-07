@@ -3,12 +3,15 @@
 	export let plaatje: string;
 	export let alt: string;
 	export let tekst: string;
+	export let link: string;
 </script>
 
-<div class="vak">
-	<img src={plaatje} {alt} class="plaatje" />
-	<div class="vaktekst">{tekst}</div>
-</div>
+<a class="link" href={link}>
+	<div class="vak">
+		<img src={plaatje} {alt} class="plaatje" />
+		<div class="vaktekst">{tekst}</div>
+	</div>
+</a>
 
 <style>
 	.vak {
@@ -46,5 +49,8 @@
 		width: 100%;
 		height: 80%;
 		object-fit: cover;
+	}
+	.link {
+		text-decoration: none;
 	}
 </style>

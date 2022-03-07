@@ -3,7 +3,7 @@
 ___
 
 
-Je kijkt naar de pagina van thuiswerk-frontend.
+Je kijkt naar de pagina van thuiswork-frontend.
 
 Thuiswerk-frontend is een project (dat overigens pas net begonnen is) voor een open-source platform om huiswerk-antwoorden te delen.
 

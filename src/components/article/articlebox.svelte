@@ -3,20 +3,20 @@
 	import Dummy from '../dummytxt/dummy.svelte';
 </script>
 
-<div class="articlebox">
-	<div class="articleheader">
-		<img src="/geschiedenis.jpg" alt="profile picture" />
+<div class="articleBox">
+	<div class="articleHeader">
+		<img class="profilePicture" src="/geschiedenis.jpg" alt="profile picture" />
 
-		<span>kaaskopVertaler in nederlands</span>
-		<span>een opdracht ofzo</span>
+		<span class="poster">kaaskopVertaler in nederlands</span>
+		<span class="postTitle">een opdracht ofzo</span>
 		<div />
 	</div>
-	<div class="articlecontent">
+	<div class="articleContent">
 		<Dummy />
 	</div>
-	<div class="articlefooter">
+	<div class="articleFooter">
 		<button>comments</button>
-		<button class="regularbutton">share</button>
+		<button class="regularButton">share</button>
 	</div>
 </div>
 
@@ -25,7 +25,7 @@
 		display: flex;
 		flex-direction: column;
 	}
-	.articlebox {
+	.articleBox {
 		width: 60vw;
 		background-color: #2a2b32;
 		color: #edf0f1;
@@ -37,11 +37,11 @@
 		margin-bottom: 10px;
 		margin-top: 10px;
 	}
-	.articlecontent {
+	.articleContent {
 		min-height: 500px;
 		margin: 10px;
 	}
-	.articleheader {
+	.articleHeader {
 		height: 7vh;
 		margin: 10px;
 		display: flex;
@@ -50,7 +50,7 @@
 		border-bottom: 1px solid silver;
 	}
 
-	.articlefooter {
+	.articleFooter {
 		display: flex;
 		margin: 10px;
 		justify-content: space-between;

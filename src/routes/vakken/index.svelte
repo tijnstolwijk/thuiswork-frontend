@@ -4,22 +4,47 @@
 </script>
 
 <div class="container">
-	<Vakcard plaatje="/cicero.jpg" alt="Latijn, het vak" tekst="latijn" />
-	<Vakcard plaatje="/acropolis.jpg" alt="grieks" tekst="grieks" />
-	<Vakcard plaatje="/geschiedenis.jpg" alt="geschiedenis" tekst="geschiedenis" />
-	<Vakcard plaatje="/dna.jpg" alt="biologie" tekst="biologie" />
-	<Vakcard plaatje="/boek.jpg" alt="nederlands" tekst="nederlands" />
-	<Vakcard plaatje="/scheikunde.jpg" alt="scheikunde" tekst="scheikunde" />
-	<Vakcard plaatje="/natuurkunde.jpg" alt="natuurkunde" tekst="natuurkunde" />
-	<Vakcard plaatje="/frans.jpg" alt="frans" tekst="frans" />
-	<Vakcard plaatje="/duits.jpg" alt="duits" tekst="duits" />
-	<Vakcard plaatje="/maths.png" alt="wiskunde" tekst="wiskunde" />
-	<Vakcard plaatje="/engels.jpg" alt="engels" tekst="engels" />
-	<Vakcard plaatje="/economie.jpg" alt="economie" tekst="economie" />
-	<Vakcard plaatje="/maatschappijleer.jpg" alt="maatschappijleer" tekst="maatschappijleer" />
-	<Vakcard plaatje="/informatica.png" alt="informatica" tekst="informatica" />
-	<Vakcard plaatje="/levensbeschouwing.jpg" alt="levensbeschouwing" tekst="levensbeschouwing" />
-	<Vakcard plaatje="/spanish.jpg" alt="spanish" tekst="spanish" />
+	<Vakcard plaatje="/cicero.jpg" alt="Latijn, het vak" tekst="latijn" link="vakken/latijn" />
+	<Vakcard plaatje="/acropolis.jpg" alt="grieks" tekst="grieks" link="vakken/grieks" />
+	<Vakcard
+		plaatje="/geschiedenis.jpg"
+		alt="geschiedenis"
+		tekst="geschiedenis"
+		link="vakken/geschiedenis"
+	/>
+	<Vakcard plaatje="/dna.jpg" alt="biologie" tekst="biologie" link="vakken/biologie" />
+	<Vakcard plaatje="/boek.jpg" alt="nederlands" tekst="nederlands" link="vakken/nederlands" />
+	<Vakcard plaatje="/scheikunde.jpg" alt="scheikunde" tekst="scheikunde" link="vakken/scheikunde" />
+	<Vakcard
+		plaatje="/natuurkunde.jpg"
+		alt="natuurkunde"
+		tekst="natuurkunde"
+		link="vakken/natuurkunde"
+	/>
+	<Vakcard plaatje="/frans.jpg" alt="frans" tekst="frans" link="vakken/frans" />
+	<Vakcard plaatje="/duits.jpg" alt="duits" tekst="duits" link="vakken/duits" />
+	<Vakcard plaatje="/maths.png" alt="wiskunde" tekst="wiskunde" link="vakken/wiskunde" />
+	<Vakcard plaatje="/engels.jpg" alt="engels" tekst="engels" link="vakken/engels" />
+	<Vakcard plaatje="/economie.jpg" alt="economie" tekst="economie" link="vakken/economie" />
+	<Vakcard
+		plaatje="/maatschappijleer.jpg"
+		alt="maatschappijleer"
+		tekst="maatschappijleer"
+		link="vakken/maatschappijleer"
+	/>
+	<Vakcard
+		plaatje="/informatica.png"
+		alt="informatica"
+		tekst="informatica"
+		link="vakken/informatica"
+	/>
+	<Vakcard
+		plaatje="/levensbeschouwing.jpg"
+		alt="levensbeschouwing"
+		tekst="levensbeschouwing"
+		link="vakken/levensbeschouwing"
+	/>
+	<Vakcard plaatje="/spanish.jpg" alt="spanish" tekst="spanish" link="vakken/spaans" />
 </div>
 
 <style>
